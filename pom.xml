@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>learning</artifactId>
+    <groupId>org.AliService</groupId>
+    <artifactId>AliService-boot-framework</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-boot-tools</module>
-        <module>spring-yazuo-nacos-provider</module>
-        <module>AliService-boot-framework</module>
-
+        <module>AliService-boot-common</module>
+        <module>AliService-boot-upms</module>
+        <module>AliService-boot-ExtreFunction</module>
+        <module>AliService-register</module>
     </modules>
 
     <properties>
@@ -115,13 +115,13 @@
 
 <!--    </dependencies>-->
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+<!--	<build>-->
+<!--		<plugins>-->
+<!--			<plugin>-->
+<!--				<groupId>org.springframework.boot</groupId>-->
+<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--			</plugin>-->
+<!--		</plugins>-->
+<!--	</build>-->
 
 </project>

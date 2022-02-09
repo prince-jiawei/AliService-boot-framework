@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dragon.threadPlatform</groupId>
-    <artifactId>web-thread</artifactId>
+    <artifactId>AliService-boot-upms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-yazuo-nacos-provider</name>
     <parent>
-        <artifactId>learning</artifactId>
-        <groupId>org.example</groupId>
+        <artifactId>AliService-boot-framework</artifactId>
+        <groupId>org.AliService</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <properties>

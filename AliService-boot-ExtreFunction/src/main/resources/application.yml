@@ -2,6 +2,6 @@ spring:
   profiles:
     active: dev
   application:
-    name: demo-consumer
+    name: AliService-extreFunction
 server:
   port: 10024
