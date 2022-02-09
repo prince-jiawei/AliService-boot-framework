@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+        service: ${spring.application.name}
+        namespace: 187627ab-59f9-4c1a-b53b-ddbc852ab408
+        group: DEFAULT_GROUP
+    config:
+      allow-override: true
